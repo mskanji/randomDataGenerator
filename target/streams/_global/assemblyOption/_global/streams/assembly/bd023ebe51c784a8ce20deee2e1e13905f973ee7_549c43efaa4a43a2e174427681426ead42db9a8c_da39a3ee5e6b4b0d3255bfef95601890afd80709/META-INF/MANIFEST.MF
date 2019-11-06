@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: random-data-generator
+Implementation-Version: 2.7
+Specification-Vendor: com.danielasfregola
+Specification-Title: random-data-generator
+Implementation-Vendor-Id: com.danielasfregola
+Specification-Version: 2.7
+Implementation-URL: https://github.com/DanielaSfregola/random-data-gen
+ erator
+Implementation-Vendor: com.danielasfregola
+

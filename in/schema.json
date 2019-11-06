@@ -1,0 +1,77 @@
+{  
+   "$schema":"http://json-schema.org/schema#",
+   "self":{  
+      "vendor":"laposte.fr",
+      "name":"REFCOM_businessAgentUnavailabilityNomenclature",
+      "format":"jsonschema",
+      "commentaireVersion":"NOMENCLATURE  INDISPONIBILITE",
+      "version":"0.1.2"
+   },
+   "$metadata":{  
+      "$datasource":"REFCOM",
+      "$dataset":"businessAgentUnavailabilityNomenclature",
+      "$nameFormat":"refcom.businessAgentUnavailabilityNomenclature.v2.topic",
+      "$fileFormat":"JSON",
+      "$ingestionMode":"OVERWRITE",
+      "$dataVector":"EVENT"
+   },
+   "id":"REFCOM_businessAgentUnavailabilityNomenclature_v0.1.2.json",
+   "title":"REFCOM_businessAgentUnavailabilityNomenclature_Evt",
+   "description":"NOMENCLATURE  INDISPONIBILITE",
+   "type":"object",
+   "required":[  
+      "BusinessUnavailableAgentId"
+   ],
+   "properties":{  
+      "BusinessUnavailableAgentId":{  
+         "description":"Identifiant RefCOM de l'indisponibilité",
+         "type":"integer",
+         "$metadata":{  
+            "$privacyLevel":"D"
+         }
+      },
+      "BusinessActorId":{  
+         "description":"Code RH",
+         "type":"string",
+         "$metadata":{  
+            "$privacyLevel":"C",
+            "$tags":[  
+               {  
+                  "rdfs:domain":"http://schema.org/Employee"
+               },
+               {  
+                  "rdf:type":"http://schema.org/identifier"
+               }
+            ]
+         }
+      },
+      "BusinessUnavailableAgentStartDate":{  
+         "description":"Date de début",
+         "type":"string",
+         "$metadata":{  
+            "$privacyLevel":"D"
+         }
+      },
+      "BusinessUnavailableAgentEndDate":{  
+         "description":"Date de fin",
+         "type":"string",
+         "$metadata":{  
+            "$privacyLevel":"D"
+         }
+      },
+      "BusinessUnavailableAgentLastUpdate":{  
+         "description":"Date de maj",
+         "type":"string",
+         "$metadata":{  
+            "$privacyLevel":"D"
+         }
+      },
+      "BusinessUnavailableAgentDDateTime":{  
+         "description":"Date de suppression",
+         "type":"string",
+         "$metadata":{  
+            "$privacyLevel":"D"
+         }
+      }
+   }
+}

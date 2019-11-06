@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: scalacheck-shapeless_1.14
+Implementation-Version: 1.2.3
+Specification-Vendor: com.github.alexarchambault
+Specification-Title: scalacheck-shapeless_1.14
+Implementation-Vendor-Id: com.github.alexarchambault
+Specification-Version: 1.2.3
+Implementation-URL: https://github.com/alexarchambault/scalacheck-shap
+ eless
+Implementation-Vendor: com.github.alexarchambault
+
